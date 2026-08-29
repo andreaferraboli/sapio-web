@@ -2,10 +2,10 @@
   "repo": "andreaferraboli/sapio-web",
   "latestVersion": "0.1.0",
   "versionCode": 100,
-  "buildNumber": 6,
-  "buildId": "cd35cf3",
-  "builtAt": "2026-08-29T14:23:36Z",
-  "releaseNotes": "fix(ci): data e note dal commit, non dal payload dell'evento\n\nSu workflow_dispatch github.event.head_commit non esiste, quindi builtAt e\nreleaseNotes finivano vuoti nel manifest pubblicato. Ora arrivano da git log\nsul commit in checkout: i due trigger si comportano allo stesso modo.",
+  "buildNumber": 7,
+  "buildId": "ff9f364",
+  "builtAt": "2026-08-29T15:05:07Z",
+  "releaseNotes": "feat(feed): una lezione si sfoglia in fogli, il quiz è il suo foglio finale\n\nPrima una lezione era un muro unico a scroll verticale, col quiz infilato in\nfondo. Ora è una pila di fogli che si sfogliano a destra e sinistra, e il quiz\nè un foglio a sé.\n\nMotore (SlideDeck):\n- l'asse orizzontale non è uno scroll ma una transform sulla track. Due\n  contenitori scrollabili annidati che si contendono lo stesso gesto si\n  agganciano a metà: così il verticale resta del browser e lo snap del feed\n  non viene toccato\n- touch-action pan-y sul viewport e axis lock sbilanciato a favore della\n  verticale: niente preventDefault, niente listener non passivi\n- indicatore con puntini cliccabili e contatore, frecce da tastiera solo sulla\n  card attiva, fogli fuori vista inert, transizioni spente con riduci-movimento\n- i correlati sono un foglio dopo il quiz: la verifica non ha vie di fuga a\n  portata di pollice\n\nContenuti: tutti e 187 convertiti a slides, 432 fogli, nessuna lezione a foglio\nunico. La ricomposizione dei fogli restituisce esattamente i 450 blocchi\noriginali per tutti e 187: nessun contenuto perso, riordinato o inventato.\n\nCon la migrazione finita, slides diventa obbligatorio e la forma deprecata\nblocks esce dal modello.\n\nDue correzioni sopra il lavoro degli agenti:\n- il codice va a capo sotto i 1024px. Il touch-action del deck si interseca\n  con quello dei discendenti, quindi un pre scrollabile non era più\n  trascinabile a dito: su mobile il codice restava tagliato\n- quiz_started partiva 1,2s dopo il mount della card, cioè per chiunque\n  vedesse la lezione. Ora che il quiz è un foglio suo, scatta quando quel\n  foglio viene aperto davvero",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }

@@ -11,4 +11,4 @@ integralmente a ogni push su `main` del repo sorgente (privato).
 
 Il sito si aggiorna a ogni push; l'APK solo quando cambia la versione.
 
-Build web corrente: **v0.1.0** · build 6 · commit `cd35cf3`
+Build web corrente: **v0.1.0** · build 7 · commit `ff9f364`
