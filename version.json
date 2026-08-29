@@ -2,10 +2,10 @@
   "repo": "andreaferraboli/sapio-web",
   "latestVersion": "0.1.0",
   "versionCode": 100,
-  "buildNumber": 5,
-  "buildId": "f53a70d",
-  "builtAt": "2026-08-29T14:17:54Z",
-  "releaseNotes": "fix(android): una sola password di firma, com'è nei keystore PKCS12\n\nLa firma falliva con \"Get Key failed: Given final block not properly padded\":\nil keystore era stato generato con store e key password diverse, ma dal\nformato PKCS12 (default da Java 9) keytool ignora in silenzio la seconda e\nusa quella dello store. Gradle poi provava a leggere la chiave con l'altra.\n\nOra la password è una sola. L'alias esce dai secret: non è un segreto, e\ntenercelo mascherava la parola \"sapio\" in ogni riga di log, \"sapio-web\"\ncompreso.",
+  "buildNumber": 6,
+  "buildId": "cd35cf3",
+  "builtAt": "2026-08-29T14:23:36Z",
+  "releaseNotes": "fix(ci): data e note dal commit, non dal payload dell'evento\n\nSu workflow_dispatch github.event.head_commit non esiste, quindi builtAt e\nreleaseNotes finivano vuoti nel manifest pubblicato. Ora arrivano da git log\nsul commit in checkout: i due trigger si comportano allo stesso modo.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
