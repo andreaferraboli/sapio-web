@@ -2,9 +2,10 @@
   "repo": "andreaferraboli/sapio-web",
   "latestVersion": "0.1.0",
   "versionCode": 100,
-  "buildNumber": 3,
-  "buildId": "d34e563",
-  "builtAt": "2026-08-29T13:56:07Z",
-  "releaseNotes": "fix: le note di rilascio non trascinano i trailer del commit\n\nIl messaggio di commit finiva integrale in version.json, quindi nel dialogo\ndi aggiornamento e su un repo pubblico: trailer e URL di sessione compresi.\nOra il blocco finale di \"Chiave: valore\" viene tolto, tenendo il corpo utile.\n\nLa prima riga è intoccabile: un subject conventional (\"ci: ...\") ha la stessa\nforma di un trailer e sarebbe sparito.",
-  "mandatory": false
+  "buildNumber": 5,
+  "buildId": "f53a70d",
+  "builtAt": "2026-08-29T14:17:54Z",
+  "releaseNotes": "fix(android): una sola password di firma, com'è nei keystore PKCS12\n\nLa firma falliva con \"Get Key failed: Given final block not properly padded\":\nil keystore era stato generato con store e key password diverse, ma dal\nformato PKCS12 (default da Java 9) keytool ignora in silenzio la seconda e\nusa quella dello store. Gradle poi provava a leggere la chiave con l'altra.\n\nOra la password è una sola. L'alias esce dai secret: non è un segreto, e\ntenercelo mascherava la parola \"sapio\" in ogni riga di log, \"sapio-web\"\ncompreso.",
+  "mandatory": false,
+  "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
