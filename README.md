@@ -8,4 +8,4 @@ integralmente a ogni push su `main` del repo sorgente (privato).
 - Manifest di versione: [`version.json`](./version.json) — è il file che i client
   interrogano per accorgersi che esiste una build più recente di sé stessi.
 
-Build corrente: **v0.1.0** · build 2 · commit `e1e00b2`
+Build corrente: **v0.1.0** · build 3 · commit `d34e563`
