@@ -1,0 +1,10 @@
+{
+  "repo": "andreaferraboli/sapio-web",
+  "latestVersion": "0.1.0",
+  "versionCode": 100,
+  "buildNumber": 2,
+  "buildId": "e1e00b2",
+  "builtAt": "2026-08-29T13:54:21Z",
+  "releaseNotes": "ci: pubblica le build su sapio-web, il sorgente resta privato\n\nStesso schema di foto-fantasia-web → MoneyManagerApk: il repo del sorgente\nnon espone nulla, un repo pubblico separato ospita il solo artefatto.\n\n- il workflow builda qui e pusha dist/ su andreaferraboli/sapio-web, che\n  serve le Pages; via configure-pages/deploy-pages, che pubblicavano\n  dallo stesso repo\n- push cross-repo con deploy key SSH dedicata (secret PAGES_DEPLOY_KEY),\n  scrittura sul solo repo delle build: nessun PAT ad ampio raggio\n- base path e manifest puntano al repo pubblico; version.json non nomina\n  più il repo privato\n- BUILT_AT viene dal commit e non dall'orologio: due build dello stesso\n  commit sono identiche, così un re-run non pubblica una build fantasma\n- publishedAt duplicava builtAt: rimosso\n\nCo-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01DT5fF47oaRJ2cDB383WaE1",
+  "mandatory": false
+}
