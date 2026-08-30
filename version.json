@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.3.0",
-  "versionCode": 300,
-  "buildNumber": 9,
-  "buildId": "afbf8f7",
-  "builtAt": "2026-08-30T15:05:32Z",
-  "releaseNotes": "chore(release): 0.3.0 — tre roadmap nuove, anche sul telefono\n\nCosa arriva con questa versione:\n- Git & GitHub: 18 lezioni, dalle tre aree di Git fino ad Actions, organizzazioni e API\n- API Security: 10 lezioni sulla checklist che sta fra un'API e il primo incidente\n- Cyber Security: 26 lezioni, da rete e crittografia alla risposta agli incidenti\n- 54 lezioni nuove in tutto, catalogo da 247 a 301\n- ogni lezione chiude con un caso aziendale da risolvere e quiz su decisioni vere\n\nIl versionCode Android passa da 200 a 300: la CI se ne accorge confrontando\napk.json pubblicato con la versione corrente, ricostruisce l'APK firmato e lo\npubblica accanto al sito.",
+  "latestVersion": "0.4.0",
+  "versionCode": 400,
+  "buildNumber": 10,
+  "buildId": "3b3bede",
+  "builtAt": "2026-08-30T20:01:03Z",
+  "releaseNotes": "chore(release): 0.4.0 — le curiosità e i due percorsi da fondatore\n\nCosa arriva con questa versione:\n- 8 lezioni \"perché\": cielo azzurro, sole bianco, piante verdi, memoria e oblio,\n  déjà vu, allergie, come si è scoperto cosa vedono gli animali, gambe e circolazione\n- la lezione sulla velocità della luce riscritta e allargata\n- Crescita: 11 lezioni, dal posizionamento all'espansione, con i casi da risolvere\n- Fondare in Italia: 9 lezioni su forma giuridica, costituzione, startup innovativa,\n  soci, fisco, lavoro, GDPR, proprietà intellettuale e finanziamenti\n- catalogo da 301 a 329 lezioni, roadmap da 5 a 7\n\nIl versionCode Android passa da 300 a 400: la CI ricostruisce l'APK firmato e lo\npubblica accanto al sito.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
