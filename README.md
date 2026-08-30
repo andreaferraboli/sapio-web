@@ -5,10 +5,10 @@ nessun sorgente, nessuna storia di sviluppo. Il contenuto viene rigenerato
 integralmente a ogni push su `main` del repo sorgente (privato).
 
 - App web: <https://andreaferraboli.github.io/sapio-web/>
-- App Android: [`sapio.apk`](https://andreaferraboli.github.io/sapio-web/sapio.apk) — v0.2.0
+- App Android: [`sapio.apk`](https://andreaferraboli.github.io/sapio-web/sapio.apk) — v0.3.0
 - Manifest di versione: [`version.json`](./version.json) — è il file che i client
   interrogano per accorgersi che esiste una build più recente di sé stessi.
 
 Il sito si aggiorna a ogni push; l'APK solo quando cambia la versione.
 
-Build web corrente: **v0.2.0** · build 8 · commit `ab57a74`
+Build web corrente: **v0.3.0** · build 9 · commit `afbf8f7`

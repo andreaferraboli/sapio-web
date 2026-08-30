@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.2.0",
-  "versionCode": 200,
-  "buildNumber": 8,
-  "buildId": "ab57a74",
-  "builtAt": "2026-08-29T21:01:57Z",
-  "releaseNotes": "chore(release): 0.2.0 — le roadmap arrivano anche sul telefono\n\nL'APK pubblicato era fermo a f53a70d, cioè prima dello sfogliatore a fogli.\nChi ha l'app installata vede ancora la lezione a muro unico, mentre sul web\ni fogli e i due percorsi ci sono già.\n\nIl bump porta il versionCode Android da 100 a 200: la CI se ne accorge\nconfrontando apk.json pubblicato con la versione corrente, ricostruisce l'APK\nfirmato e lo pubblica accanto al sito. Da lì gli utenti Android ricevono il\ndialogo di aggiornamento.\n\nCosa arriva sul telefono con questa versione:\n- la lezione sfogliabile a fogli, col quiz come foglio a sé\n- 60 lezioni nuove, catalogo da 187 a 247\n- i percorsi Backend e DevOps con avanzamento",
+  "latestVersion": "0.3.0",
+  "versionCode": 300,
+  "buildNumber": 9,
+  "buildId": "afbf8f7",
+  "builtAt": "2026-08-30T15:05:32Z",
+  "releaseNotes": "chore(release): 0.3.0 — tre roadmap nuove, anche sul telefono\n\nCosa arriva con questa versione:\n- Git & GitHub: 18 lezioni, dalle tre aree di Git fino ad Actions, organizzazioni e API\n- API Security: 10 lezioni sulla checklist che sta fra un'API e il primo incidente\n- Cyber Security: 26 lezioni, da rete e crittografia alla risposta agli incidenti\n- 54 lezioni nuove in tutto, catalogo da 247 a 301\n- ogni lezione chiude con un caso aziendale da risolvere e quiz su decisioni vere\n\nIl versionCode Android passa da 200 a 300: la CI se ne accorge confrontando\napk.json pubblicato con la versione corrente, ricostruisce l'APK firmato e lo\npubblica accanto al sito.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
