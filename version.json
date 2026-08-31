@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.6.0",
-  "versionCode": 600,
-  "buildNumber": 12,
-  "buildId": "95cdee9",
-  "builtAt": "2026-08-31T12:23:08Z",
-  "releaseNotes": "chore(release): 0.6.0 — ogni materia con la sua palette\n\nSolo aspetto: nessun contenuto, nessuna lezione e nessun quiz è stato toccato.\n\n- ogni area del sapere porta tre toni del suo colore: brillante per i fondi\n  scuri e i riempimenti, scuro per i testi sui fondi chiari, profondo per il\n  testo sopra un riempimento. Prima ne aveva uno solo, e in tema chiaro\n  qualche materia sbiadiva sul bianco\n- la lezione si veste della sua materia: avanzamento, filetti, glifo in\n  filigrana, velature dei blocchi, quiz e pillola \"L'ho capito\". Il verde di\n  Sapio resta al guscio dell'app (menu, streak, aggiornamenti)\n- tre accenti sono stati schiariti per poter fare da riempimento con testo\n  leggibile sopra: architettura software, mente & abitudini, costruzioni\n- catalogo, libreria, progressi, profilo e onboarding usano lo stesso criterio,\n  quindi il colore di un'area è lo stesso in tutta l'app e in entrambi i temi\n- src/lib/subject.ts decide quale tono va in quale ruolo: i componenti non si\n  passano più il colore grezzo di mano in mano",
+  "latestVersion": "0.6.1",
+  "versionCode": 601,
+  "buildNumber": 13,
+  "buildId": "f61282d",
+  "builtAt": "2026-08-31T12:27:48Z",
+  "releaseNotes": "fix(chip): il chip selezionato di una materia si riempie col tono brillante\n\nIn tema chiaro `color` è il tono scuro della materia, e il chip selezionato lo\nusava sia come fondo sia sotto il testo verde scuro: scritta illeggibile nel\ncatalogo e negli interessi del profilo. Ora il riempimento vuole il tono\nbrillante e il testo quello profondo, come i controlli pieni altrove.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
