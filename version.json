@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.6.1",
-  "versionCode": 601,
-  "buildNumber": 13,
-  "buildId": "f61282d",
-  "builtAt": "2026-08-31T12:27:48Z",
-  "releaseNotes": "fix(chip): il chip selezionato di una materia si riempie col tono brillante\n\nIn tema chiaro `color` è il tono scuro della materia, e il chip selezionato lo\nusava sia come fondo sia sotto il testo verde scuro: scritta illeggibile nel\ncatalogo e negli interessi del profilo. Ora il riempimento vuole il tono\nbrillante e il testo quello profondo, come i controlli pieni altrove.",
+  "latestVersion": "0.7.0",
+  "versionCode": 700,
+  "buildNumber": 14,
+  "buildId": "f218903",
+  "builtAt": "2026-08-31T12:50:09Z",
+  "releaseNotes": "chore(release): 0.7.0 — il guscio dell'app passa a blu notte e oro\n\nSolo aspetto: nessun contenuto, nessuna lezione e nessun quiz è stato toccato.\n\n- il guscio dell'app vive su cinque colori: blu notte #0B2545, blu #134074,\n  oro #E2B13C, crema #FAF3E0, grigio #3B3B3B. Il verde non c'è più da nessuna\n  parte, nemmeno nell'icona della scheda\n- le superfici intermedie sono velature di quei cinque: crema schiarita e\n  crema carica sul tema chiaro, blu su blu notte sullo scuro\n- i controlli pieni (voce di menu attiva, bottoni primari, toggle, CTA) sono\n  oro con testo blu notte in entrambi i temi; i testi accentati sono blu sul\n  chiaro e oro sullo scuro, così restano leggibili\n- da Finanz resta la grammatica, non le tinte: spaziature, raggi, pillole\n  alte 48, Inter e Passion One\n- l'accento di Cloud & DevOps passa da #818cf8 a #a5b4fc: sul blu notte il\n  precedente non arrivava a 4,5:1\n- contrasti ricontrollati sulle tre superfici di ogni tema e su tutte le 18\n  materie: ink, muted, brand, ok e danger sopra 4,5:1, faint sopra 3,6:1\n\nLe materie tengono la loro palette: il guscio non entra nel foglio della\nlezione e il foglio non tinge il guscio.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
