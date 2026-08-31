@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.5.0",
-  "versionCode": 500,
-  "buildNumber": 11,
-  "buildId": "f28c20f",
-  "builtAt": "2026-08-31T10:40:13Z",
-  "releaseNotes": "chore(release): 0.5.0 — i fogli della lezione si vestono come Finanz\n\nSolo aspetto: nessun contenuto, nessuna lezione e nessun quiz è stato toccato.\n\n- palette e tipografia prese dal design system dell'app Finanz: Inter per\n  testo e titoli, Passion One per il titolo di apertura di una lezione,\n  verde #17380E per i controlli e lime #88E649 per i riempimenti\n- la lezione ora è un pannello elevato con hairline e ombra morbida, e una\n  barra di avanzamento sottile in testa ai fogli\n- blocchi, chip e bottoni rifatti sui componenti Finanz: raggio 16, pillole\n  piene alte 48, fondi appena accennati con bordo del colore\n- quiz con risposte a tutta larghezza e pallino di selezione, verde di\n  successo e rosso di errore al 10% di riempimento\n- in tema chiaro la voce di menu attiva, l'iniziale del profilo e le CTA\n  erano testo verde scuro su fondo verde scuro: ora sono lime con testo scuro\n- sul telefono i chip stanno su una riga sola e la riga della fonte non va a\n  capo: il foglio guadagna spazio in altezza",
+  "latestVersion": "0.6.0",
+  "versionCode": 600,
+  "buildNumber": 12,
+  "buildId": "95cdee9",
+  "builtAt": "2026-08-31T12:23:08Z",
+  "releaseNotes": "chore(release): 0.6.0 — ogni materia con la sua palette\n\nSolo aspetto: nessun contenuto, nessuna lezione e nessun quiz è stato toccato.\n\n- ogni area del sapere porta tre toni del suo colore: brillante per i fondi\n  scuri e i riempimenti, scuro per i testi sui fondi chiari, profondo per il\n  testo sopra un riempimento. Prima ne aveva uno solo, e in tema chiaro\n  qualche materia sbiadiva sul bianco\n- la lezione si veste della sua materia: avanzamento, filetti, glifo in\n  filigrana, velature dei blocchi, quiz e pillola \"L'ho capito\". Il verde di\n  Sapio resta al guscio dell'app (menu, streak, aggiornamenti)\n- tre accenti sono stati schiariti per poter fare da riempimento con testo\n  leggibile sopra: architettura software, mente & abitudini, costruzioni\n- catalogo, libreria, progressi, profilo e onboarding usano lo stesso criterio,\n  quindi il colore di un'area è lo stesso in tutta l'app e in entrambi i temi\n- src/lib/subject.ts decide quale tono va in quale ruolo: i componenti non si\n  passano più il colore grezzo di mano in mano",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
