@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.7.0",
-  "versionCode": 700,
-  "buildNumber": 14,
-  "buildId": "f218903",
-  "builtAt": "2026-08-31T12:50:09Z",
-  "releaseNotes": "chore(release): 0.7.0 — il guscio dell'app passa a blu notte e oro\n\nSolo aspetto: nessun contenuto, nessuna lezione e nessun quiz è stato toccato.\n\n- il guscio dell'app vive su cinque colori: blu notte #0B2545, blu #134074,\n  oro #E2B13C, crema #FAF3E0, grigio #3B3B3B. Il verde non c'è più da nessuna\n  parte, nemmeno nell'icona della scheda\n- le superfici intermedie sono velature di quei cinque: crema schiarita e\n  crema carica sul tema chiaro, blu su blu notte sullo scuro\n- i controlli pieni (voce di menu attiva, bottoni primari, toggle, CTA) sono\n  oro con testo blu notte in entrambi i temi; i testi accentati sono blu sul\n  chiaro e oro sullo scuro, così restano leggibili\n- da Finanz resta la grammatica, non le tinte: spaziature, raggi, pillole\n  alte 48, Inter e Passion One\n- l'accento di Cloud & DevOps passa da #818cf8 a #a5b4fc: sul blu notte il\n  precedente non arrivava a 4,5:1\n- contrasti ricontrollati sulle tre superfici di ogni tema e su tutte le 18\n  materie: ink, muted, brand, ok e danger sopra 4,5:1, faint sopra 3,6:1\n\nLe materie tengono la loro palette: il guscio non entra nel foglio della\nlezione e il foglio non tinge il guscio.",
+  "latestVersion": "0.8.0",
+  "versionCode": 800,
+  "buildNumber": 15,
+  "buildId": "b15dd9f",
+  "builtAt": "2026-11-09T13:02:20+01:00",
+  "releaseNotes": "chore(release): 0.8.0, nove percorsi da 20 argomenti (#2)\n\n- Nove percorsi nuovi, uno per area della lista del video (Backend, Database, DSA, Fondamenti di informatica, System design, Design del codice, AI agentica, DevOps, Sicurezza applicativa), 20 argomenti ciascuno, ogni argomento in covers una volta sola con il nome originale.\n- 126 lezioni nuove nei file src/data/contents-{fond-backend,database,dsa,cs-fondamenti,hld,lld,ai-agentica,fond-devops,fond-security}.ts, stesso taglio delle altre (caso aziendale o Da CTO in chiusura, quiz da 3 domande su decisioni); 54 argomenti coperti da lezioni gia esistenti, riusate senza modificarle.\n- Catalogo da 329 a 455 lezioni, percorsi da 7 a 16, CATALOG_REV 10, versione 0.8.0, README aggiornato.\n- Fix del renderer (src/features/feed/blocks.tsx, componente Inline): **grassetto** e `codice` nel testo finivano a schermo come simboli in tutto il catalogo, anche nelle lezioni vecchie; ora diventano strong e code in testo, fatti, passi, tabelle e quiz.\n- Verifica: tsc --noEmit pulito, vite build ok, script di controllo sul catalogo (id unici, related e contentId esistenti, correct nel range, 180 argomenti coperti una volta ciascuno) OK; screenshot headless 390 e 1280, tema chiaro e scuro, della lista percorsi, del percorso DSA e delle lezioni dsa-sliding-window e pattern-strategy.\n- Aperto: alcune lezioni vecchie riusate nei percorsi sono esili (2 fogli, quiz da 2 domande: idempotenza, processi-thread, tcp-handshake, teorema-cap, microservizi-tradeoff, event-driven, kubernetes-orchestrazione, autoscaling); Dependency Scanning si appoggia a un solo foglio di sicurezza-in-ci-cd. I file nuovi sono in stile prettier espanso, i vecchi compatti.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
