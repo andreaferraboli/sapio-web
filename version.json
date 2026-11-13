@@ -1,11 +1,11 @@
 {
   "repo": "andreaferraboli/sapio-web",
-  "latestVersion": "0.9.0",
-  "versionCode": 900,
-  "buildNumber": 16,
-  "buildId": "3cd9c85",
-  "builtAt": "2026-11-13T07:42:03+01:00",
-  "releaseNotes": "chore(release): 0.9.0, percorso Startupparo (#3)\n\n- Nuovo percorso 'Startupparo': il vocabolario completo di chi guida una startup, 11 tappe e 88 lezioni (55 nuove, 33 riusate dal catalogo), 959 termini in covers una volta sola (vendite, prodotto e tecnologia, finanza interna, capitale, team, legale, scalare e uscire, settori, gergo). Taglio da CEO: caso aziendale in chiusura, quiz da 3 domande su decisioni.\n- File: src/data/contents-startupparo-{1..6}.ts (scritti da 6 subagent in parallelo da una specifica comune), src/data/roadmaps.ts (voce startupparo), src/core/types.ts (RoadmapId), src/data/contents.ts (registrazione, CATALOG_REV 11), README, versione 0.9.0.\n- Cambi al renderer emersi dalla verifica visiva a 390 e 1280: tabelle comparison impilate sotto sm (src/features/feed/blocks.tsx, valgono per tutto il catalogo), pallini del pager che non vanno a capo (SlideDeck.tsx), nuovo src/data/split-slides.ts che spezza al caricamento i fogli lunghi delle sole lezioni nuove (budget circa 1400 caratteri; prima un foglio arrivava a 7,5 schermate su telefono, ora al massimo circa 3).\n- readingTimeSec ricalcolato dalle parole (200 al minuto): le lezioni nuove sono da 5 a 8 minuti, non da 4.\n- Verifica: tsc --noEmit pulito, vite build ok, script sul catalogo (id unici, related e contentId esistenti, correct nel range, quiz da 4 opzioni, tappe senza doppioni: 510 lezioni, 17 percorsi); screenshot headless 390 e 1280, chiaro e scuro, di lista percorsi, pagina del percorso e tre lezioni lunghe, rifatti dopo le correzioni; misure su altre tre lezioni solo a 390.\n- Scartato/corretto: prima versione con tabelle a due colonne 50/50 su telefono (striscia alta e stretta); formule GRR e NRR in un solo blocco (ora due); frase confusa su cap e discount nei SAFE.\n- Aperto: 49 lezioni nuove non guardate a occhio una per una (solo le 6 misurate); alcuni fogli restano sopra 3 schermate su telefono per blocchi formula e liste a passi; i fatti specifici (benchmark SaaS, soglie VC, cenni di diritto italiano ed europeo) sono scritti come ordini di grandezza e rimandano a commercialista o avvocato, ma vanno riletti; touch reale e font di Google non provati in sandbox.",
+  "latestVersion": "0.9.1",
+  "versionCode": 901,
+  "buildNumber": 17,
+  "buildId": "d2716b0",
+  "builtAt": "2026-11-13T08:02:53+01:00",
+  "releaseNotes": "chore(release): 0.9.1, popup di aggiornamento scorrevole (#4)\n- Il popup di aggiornamento ora scorre e i pulsanti restano visibili\n- Le note di rilascio sono ridotte a poche righe corte",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
