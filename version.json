@@ -2,10 +2,10 @@
   "repo": "andreaferraboli/sapio-web",
   "latestVersion": "0.9.1",
   "versionCode": 901,
-  "buildNumber": 17,
-  "buildId": "d2716b0",
-  "builtAt": "2026-11-13T08:02:53+01:00",
-  "releaseNotes": "chore(release): 0.9.1, popup di aggiornamento scorrevole (#4)\n- Il popup di aggiornamento ora scorre e i pulsanti restano visibili\n- Le note di rilascio sono ridotte a poche righe corte",
+  "buildNumber": 18,
+  "buildId": "98aeb13",
+  "builtAt": "2026-11-24T22:01:15+01:00",
+  "releaseNotes": "chore: sposta il journaling fuori dal repo (#5)\nIl journaling diventa unico e locale sulla macchina, non piu nel repo.",
   "mandatory": false,
   "apkUrl": "https://andreaferraboli.github.io/sapio-web/sapio.apk"
 }
